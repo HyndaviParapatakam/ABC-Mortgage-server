@@ -1,0 +1,151 @@
+{
+    "users": [
+      { "userId": 1, "customerId": "hyndavi", "password": "password123" },
+      { "userId": 2, "customerId": "abc", "password": "password123" }
+    ],
+   
+    "accounts": [
+      {
+        "accountId": 1,
+        "userId": 1,
+        "accountNumber": "1234567890",
+        "type": "savings",
+        "balance": 500000,
+        "lastTransactionDate": "2024-12-01"
+      },
+   
+      {
+        "accountId": 2,
+        "userId": 1,
+        "accountNumber": "0987654321",
+        "type": "mortgage",
+        "balance": 100000,
+        "lastTransactionDate": "2024-11-25"
+      }
+    ],
+   
+    "transactions": [
+      {
+        "transactionId": 1,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 5000,
+        "remarks": "Test1",
+        "transactionDate": "2024-12-01"
+      },
+   
+      {
+        "transactionId": 2,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 6000,
+        "remarks": "Test2",
+        "transactionDate": "2024-10-01"
+      },
+   
+      {
+        "transactionId": 3,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 7000,
+        "remarks": "Test3",
+        "transactionDate": "2022-09-11"
+      },
+   
+      {
+        "transactionId": 4,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 90000,
+        "remarks": "Test4",
+        "transactionDate": "2020-06-04"
+      },
+   
+      {
+        "transactionId": 5,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 1000,
+        "remarks": "Test5",
+        "transactionDate": "1998-06-07"
+      },
+      {
+        "transactionId": 6,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 1800,
+        "remarks": "Test6",
+        "transactionDate": "2023-11-09"
+      },
+      {
+        "transactionId": 7,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 100,
+        "remarks": "Test7",
+        "transactionDate": "2018-12-05"
+      },
+      {
+        "transactionId": 8,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 67978,
+        "remarks": "Test8",
+        "transactionDate": "1993-06-12"
+      },
+   
+      {
+        "transactionId": 9,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 3290,
+        "remarks": "Test9",
+        "transactionDate": "2019-09-01"
+      },
+      {
+        "transactionId": 10,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 9864,
+        "remarks": "Test10",
+        "transactionDate": "2023-04-23"
+      },
+      {
+        "transactionId": 11,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 56567,
+        "remarks": "Test11",
+        "transactionDate": "2024-07-30"
+      },
+      {
+        "transactionId": 12,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 87654,
+        "remarks": "Test12",
+        "transactionDate": "2017-06-22"
+      },
+      {
+        "transactionId": 13,
+        "userId": 1,
+        "fromAccount": 1234567890,
+        "toAccount": "0987654321",
+        "amount": 43123,
+        "remarks": "Test13",
+        "transactionDate": "1999-08-12"
+      }
+    ]
+  }
